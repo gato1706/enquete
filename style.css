@@ -1,0 +1,27 @@
+body{
+    background-color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: linear-gradient(to bottom,#210D24,#621E6E) ;
+    color: white;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1{
+    color: #ca9e0b;
+}
+
+.topics {
+    background: linear-gradient(to bottom,#621E6E ,#210D24) ;
+    color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
