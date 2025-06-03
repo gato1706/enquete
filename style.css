@@ -1,3 +1,4 @@
+
 body{
     background-color: #CCCCCC;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +18,13 @@ body{
 
 .container h1{
     color: #ca9e0b;
+}
+.container p{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .topics {
