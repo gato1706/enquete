@@ -1,46 +1,105 @@
-
-body{
-    background-color: #CCCCCC;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    background: linear-gradient(to bottom,#210D24,#621E6E) ;
-    color: white;
-    margin: 1rem;
-    border-radius: 5px;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+body {
+  background-color: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container h1{
-    color: #ca9e0b;
+.container {
+  background: linear-gradient(to bottom, #210d24, #621e6e);
+  color: white;
+  margin: 1.2rem 8rem 3.5rem;
+  border-radius: 1.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
 }
-.container p{
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+
+.container h1 {
+  color: #ca9e0b;
+}
+
+.container p {
+  padding: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .topics {
-    background: linear-gradient(to bottom,#621E6E ,#210D24) ;
-    color: #fafafa;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-     justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: linear-gradient(to bottom, #621e6e, #210d24);
+  color: #fafafa;
+  margin: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  width: 48rem;
 }
 
-.topics input{
-    border-radius: 5px;
-    max-width: 10rem;
-    margin: 0.1rem;
+.topics p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.topics input {
+  width: 22rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.topics-image {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.topics-image img {
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem;
+}
+
+.image-soccer,
+.image-airport,
+.image-psy {
+  background: linear-gradient(to bottom, #3f63ef, #6bbefc);
+  border: 9px solid #2637db;
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #1d0c20;
+  color: #fafafa;
+  border-radius: 3px;
+  margin: 2px;
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
 }
