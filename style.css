@@ -74,12 +74,14 @@ body {
   border-radius: 5px;
   width: 100%;
   justify-content: center;
+  flex-wrap: wrap; /* adiciona quebra se necessário */
 }
 
 .topics-image img {
-  display: flex;
-  justify-content: center;
-  margin: 1.2rem;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
 }
 
 .image-soccer,
@@ -92,6 +94,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 300px;
 }
 
 button {
@@ -104,7 +108,7 @@ button {
   cursor: pointer;
 }
 
-
+/* ========== MEDIA QUERIES ========== */
 @media (max-width: 768px) {
   .container {
     margin: 1rem;
@@ -124,17 +128,21 @@ button {
   .topics-image {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .topics-image img {
-    margin: 0.5rem 0;
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   .image-soccer,
   .image-airport,
   .image-psy {
-    width: 100%;
+    width: 90%;
+    max-width: 450px;
+    margin: 0.5rem 0;
   }
 
   button {
@@ -143,7 +151,6 @@ button {
     font-size: 1rem;
   }
 }
-
 
 @media (max-width: 480px) {
   .container h1 {
